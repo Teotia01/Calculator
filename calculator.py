@@ -4,7 +4,7 @@ import tkinter.messagebox
 from tkinter.constants import SUNKEN
 
 window = tk.Tk()
-window.title('Calculator-GeeksForGeeks')
+window.title('Calculator-DC')
 frame = tk.Frame(master=window, bg="skyblue", padx=10)
 frame.pack()
 entry = tk.Entry(master=frame, relief=SUNKEN, borderwidth=3, width=30)
@@ -68,7 +68,7 @@ button_subtract = tk.Button(
 button_subtract.grid(row=5, column=1, pady=2)
 
 button_multiply = tk.Button(
-	master=frame, text="x", padx=15, pady=5, width=3, command=lambda: myclick('x'))
+	master=frame, text="x", padx=15, pady=5, width=3, command=lambda: myclick('*'))
 button_multiply.grid(row=5, column=2, pady=2)
 
 button_div = tk.Button(master=frame, text="/", padx=15,
